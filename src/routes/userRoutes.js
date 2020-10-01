@@ -11,7 +11,7 @@ const router = new Router();
 // router.get('/:id', userController.show);
 
 router.post('/', userController.store);
-// router.put('/', loginRequired, userController.update);
+router.put('/', loginRequired, userController.update);
 router.delete('/', loginRequired, userController.delete);
 
 export default router;
