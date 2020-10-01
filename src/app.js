@@ -16,9 +16,7 @@ import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
-  'https://react2.otaviomiranda.com.br',
-  'https://localhost:3001',
-  'https://localhost:3000',
+  'http://localhost:3000',
 ];
 
 const corsOptions = {
