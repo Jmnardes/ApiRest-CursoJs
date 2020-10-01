@@ -18,6 +18,7 @@ var _fotoRoutes = require('./routes/fotoRoutes'); var _fotoRoutes2 = _interopReq
 const whiteList = [
   'https://react2.otaviomiranda.com.br',
   'https://localhost:3001',
+  'https://localhost:3000',
 ];
 
 const corsOptions = {
