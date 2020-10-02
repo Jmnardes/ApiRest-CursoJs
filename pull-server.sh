@@ -11,5 +11,4 @@ ssh-add ~/.ssh/id_rsa
 ssh 34.95.231.60 \
   'git -C /home/JMNar/api/ ' \
   'pull origin master && ' \
-  'npm i && ' \
   'pm2 restart api && sudo systemctl restart nginx'
